@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+.colorful {
+    background-color: darkgoldenrod;
+    border: solid 5px #003444;
+}
+
+#large {
+    font-weight: bold;
+    font-size: 200px;
+    font-family: Verdana;
+}
+.ital {
+    font-style: italic;
+    align-items: center;
+    color: chartreuse;
+}
+
+#footnote {
+    text-align: left;
+    color: chartreuse;
+    padding: 50px;
+}
+#crimson {
+    color: crimson;
+    font-weight: bold;
+}

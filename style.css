@@ -1,0 +1,39 @@
+p {
+    color: skyblue;
+    font-size: 25px;
+    font-family: arial;
+    font-style: italic;
+}
+
+body {
+    background-color: lightpink;
+    text-align: center;
+}
+
+li {
+    color: blue;
+    list-style: disc;
+}
+#special {
+    color: green;
+    font-size: 30px;
+}
+.cool {
+    color: brown;
+
+}
+.square {
+    height: auto;
+    width: auto;
+    background: yellow;
+    border-radius: 15px;
+    border: dotted 3px lightblue;
+    margin: auto;
+}
+
+#coolsquare {
+    background-color: red;
+}
+#uncoolsquare {
+    background-color: blue;
+}
