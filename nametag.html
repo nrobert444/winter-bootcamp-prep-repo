@@ -8,20 +8,26 @@
     <title>My Nametag</title>
 </head>
 <body>
-    <div class="nametag">
+    <div id ="nametag" class="nametag">
         <div class="words">
-            <div class="hello">
+            <div id="hello" class="hello">
                 <strong>hello</strong>
             </div>
             <div class="my-name-is">
                 my name is
             </div>
         </div>
-        <div class="front">
+        <div id="the-name" class="front">
             Nick
         </div>
-        
     </div>
+    <label>
+        Please enter a name:
+        <input id="myInput">
+        <button id="submit">
+            Submit
+        </button>
+    </label>
     <script type="module" src="script.js"></script>
 </body>
 </html>
