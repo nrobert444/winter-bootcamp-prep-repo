@@ -23,14 +23,22 @@ li {
 
 }
 .square {
-    height: auto;
-    width: auto;
+    text-align: right;
+    height: 250px;
+    width: 250px;
     background: yellow;
     border-radius: 15px;
     border: dotted 3px lightblue;
-    margin: auto;
+    margin: 0 auto;
+    padding: 40px;
+    transition: all .2s ease-in-out;
 }
+.square:hover {
+    height: 400;
+    background-color: darkgreen;
+    cursor: pointer;
 
+}
 #coolsquare {
     background-color: red;
 }
